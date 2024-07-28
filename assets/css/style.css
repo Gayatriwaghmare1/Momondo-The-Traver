@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.text-pink{
+  color:#CC466F !important
+}
+/* Header SEction Start */
+header{
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    padding: 0px 125px;
+    background-color: #111c38;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+  list-style: none;
+  padding-right: 10px;
+}
+.header ul li{
+  margin-right: 15px;
+  display: inline-block;
+}
+.container a img{
+  padding-bottom: 10px;
+}
+/* header section end */
+
+/* banner section start */
+.banner{
+  width: 100%;
+  height: 600px;
+  padding: 0px 125px;
+  background: url(../img/banner.jpg );
+ background-size: 100% 100%;
+}
+.banner h1{
+  font-size: 50px;
+  padding-top: 10%;
+  font-weight: normal;
+}
+.banner h2{
+  padding-top: 10px;
+  padding-bottom: 200px;
+  font-size: 30px;
+}
+.banner form{
+  width: 84%;
+  height: 100px;
+  padding: 2px 8px;
+  position: absolute;
+  display: flex;
+  background-color: #5c337A;
+}
+.banner form button.active{
+  background-color: #CC466F;
+}
+.switchButton button{
+  width:90px;
+  height: 30px;
+  background-color: #512570;
+  color: #fff; 
+  font-weight: 500;
+  border: none;
+}
+.switchButton
+{
+  padding-bottom: 10px;
+}
+.banner form label{
+display: none;
+}
+.banner form .set{
+ border-color: #fff;
+}
+.banner form .searchform input,
+.banner form .searchform select
+{
+  width: 180px;
+  height: 30px;
+  margin-right: 5px;
+}
+.banner form button.set{
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #CC466F;
+  color: #fff;
+  align-items: center;
+}
+.banner form .searchform div{
+  color: #fff;
+}
+/* banner section end */
+/* fun section start  */
+.fun {
+  width: 100%;
+  height: 300px;
+  padding: 50px 120px;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/fun2.png);
+  background-size: 100% 100%;
+}
+    .fun h2{
+    color:#fff;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+.fun ul{
+  display: flex;
+  justify-content:space-between;
+}
+
+.fun ul li
+{
+list-style: none;
+width: 100px;
+height: 130px;
+text-align: center;
+color: #fff;
+padding-top: 20px;
+background-color: rgba(0,0,0,0.7);
+font-size: 50px;
+}
+/* fun section end  */
+/* newsleter  section start */
+.b{
+  width: 100%;
+  height: 400px;
+  padding: 0px 125px;
+  color: #fff;
+  background: url(../img/news3.jpg);
+  background-size: 100% 100%;
+}
+.b h1{
+  text-align: center;
+  padding-top: 15%;
+  padding-left: 45%;
+}
+.b p{
+  padding-top: 20px;
+  padding-left: 40%;
+  text-align:center;
+}
+.b form{
+  padding-top: 10px;
+  padding-left: 40%;
+}
+.b form input#new1email{
+width: 80%;
+height: 50%;
+}
+.b form label{
+  display: none;
+}
+/* newsleter  section end */
+
+/* Destination  section start */
+.c{
+  width: 100%;
+  height: auto;
+  color: #fff;
+  padding: 50px 125px;
+  background-color: #20162F;
+}
+.c h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.c ul{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 400px 400px;
+  grid-gap: 30px;
+}
+.c ul li {
+  list-style: none;
+  border-radius: 5px;
+  background: #fff;
+  border: 5px solid #fff;
+  text-align: center;
+}
+.c ul li img{
+  width: 100%;
+}
+.c ul li div{
+  color: black;
+  padding: 5px;
+}
+div.content span{
+  color: #ff4800;
+}
+
+/* Destination  section end */
+/* Estimate section start */
+.d{
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 50px 125px;
+  background-color: #664CAD;
+  color: #fff;
+}
+.d form select{
+width: 20%;
+}
+.d label{
+  display:none
+}
+.d img{
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right;
+}
+/* Estimate section end */
+/* blog section start  */
+.blog{
+  width: 100%;
+  height: auto;
+  padding: 50px 125px;
+}
+.blog h2{ 
+  text-align: center;
+  color:#000;
+  margin-bottom: 10px;
+}
+.blog h2+p{
+  text-align: center;
+  padding: 0px 200px;
+}
+.blog-content{
+  margin: 5px auto;
+  display: flex;
+}
+.blog-content div{
+  display: flex;
+  padding: 10px;
+} 
+.blog-content div img{
+  width: 250px;
+  height: 150px;
+}
+  .blog-content div div{
+    font-size: small;
+    display: inline-block;
+  }
+  .blog-content div .bdr{
+    border-bottom: 5px solid red;
+    border-width: 10px;
+  }
+
+/* blog section end */
+/* footer section start */
+footer{
+  width: 100%;
+  height: auto;
+  padding: 50 125px;
+  background: linear-gradient(rgba((0,0,0,0.5),rgba(0,0,0,0.5))),url(../img/banner2.jpg);
+}
+/* footer section end */
+/* CSS for screens smaller than 768px */
+@media (max-width: 768px) {
+  header {
+      padding: 0px 20px; /* Reduce padding for smaller screens */
+  }
+  .banner {
+      padding: 0px 20px; /* Adjust padding for smaller screens */
+  }
+  .banner h1 {
+      font-size: 30px; /* Reduce font size for smaller screens */
+  }
+  .banner h2 {
+      padding-bottom: 100px; /* Adjust padding for smaller screens */
+  }
+  .banner form {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .banner form .searchform input,
+  .banner form .searchform select {
+      width: 100%; /* Make inputs full width on smaller screens */
+  }
+  .fun,
+  .b,
+  .c,
+  .d,
+  .blog,
+  footer {
+      padding: 50px 20px; /* Reduce padding for smaller screens */
+  }
+}
+
+/* CSS for screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner h1 {
+      font-size: 40px; /* Adjust font size for medium screens */
+  }
+}
+
+/* CSS for screens larger than 992px */
+@media (min-width: 992px) {
+  .container {
+      padding: 0px 125px; /* Maintain padding for larger screens */
+  }
+}
